@@ -1,0 +1,33 @@
+{
+  "name": "near-intents-1click-integration-example",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "denbite <mirloxd3@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@defuse-protocol/one-click-sdk-typescript": "^0.1.5",
+    "@near-js/accounts": "^2.0.2",
+    "@near-js/crypto": "^2.0.2",
+    "@near-js/providers": "^2.0.2",
+    "@near-js/signers": "^2.0.2",
+    "@near-js/tokens": "^2.0.2",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.7.3",
+    "viem": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "tokens": "ts-node src/tokens.ts",
+    "deposit": "ts-node src/deposit.ts",
+    "deposit_arbitrum": "ts-node src/deposit_arb.ts",
+    "swap": "ts-node src/swap.ts",
+    "withdraw": "ts-node src/withdraw.ts"
+  }
+}

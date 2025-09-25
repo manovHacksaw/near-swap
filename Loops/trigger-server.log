@@ -1,0 +1,9 @@
+[dotenv@17.2.2] injecting env (5) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+🚀 Trigger server running on port 3001
+📡 Health check: http://localhost:3001/health
+🎯 Resolve game: http://localhost:3001/resolve-game
+📊 Pending games: http://localhost:3001/pending-games
+
+💡 To resolve a game from frontend:
+   POST http://localhost:3001/resolve-game
+   Body: { "gameId": "game-123", "didWin": true, "multiplier": 2.5, "gameType": "mines", "player": "user.testnet" }

@@ -1,0 +1,41 @@
+{
+  "name": "near-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@defuse-protocol/one-click-sdk-typescript": "^0.1.1-0.2",
+    "@near-js/accounts": "^2.3.1",
+    "@near-js/crypto": "^2.3.1",
+    "@near-js/providers": "^2.3.1",
+    "@near-js/signers": "^2.3.1",
+    "@near-js/tokens": "^2.3.1",
+    "@near-wallet-selector/bitte-wallet": "^9.5.2",
+    "@near-wallet-selector/core": "^9.5.2",
+    "@near-wallet-selector/ledger": "^9.5.2",
+    "@near-wallet-selector/meteor-wallet": "^9.5.2",
+    "@near-wallet-selector/modal-ui": "^9.5.2",
+    "@near-wallet-selector/nightly": "^9.5.2",
+    "@near-wallet-selector/react-hook": "^9.5.2",
+    "@tanstack/react-query": "^5.90.1",
+    "lucide-react": "^0.544.0",
+    "near-api-js": "^5.1.1",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "viem": "^2.37.7",
+    "wagmi": "^2.17.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
