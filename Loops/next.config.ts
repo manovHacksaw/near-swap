@@ -38,6 +38,10 @@ const nextConfig: NextConfig = {
         os: false,
       };
     }
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      "@/near": path.resolve(process.cwd(), "near/src"),
+    };
     return config;
   },
 };
