@@ -63,8 +63,12 @@ export default function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">N</span>
+              <div className="w-8 h-8 rounded-lg overflow-hidden">
+                <img 
+                  src="/mainlogo.png" 
+                  alt="koondotfun logo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h1 className="text-xl font-bold text-foreground">koondotfun</h1>
             </div>
